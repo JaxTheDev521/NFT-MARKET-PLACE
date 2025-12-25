@@ -1,0 +1,55 @@
+/*entire-document*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    background: #2B2B2B;
+    color: #fff;
+}
+/*entire-document*/
+/* Header */
+.myheader{
+  width: 100%;
+  background: #2b2b2b;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #7c3aed;
+}
+
+/* Inner layout */
+.NFT{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand */
+.images {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.images1 {
+  font-size: 1.4rem;
+}
+
+.images2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Menu button */
+.menu-btn {
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*HEADER*/
+/*part1*/
