@@ -296,3 +296,47 @@ body {
   transform: rotate(360deg);
   transition: 2s;
 }
+/*part3*/
+/*part4*/
+.part4{
+ padding: 0.5rem;
+ margin: 0;
+}
+.part4content{
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0.1rem;
+  padding-top: 2rem;
+}
+.browseformezaddy{
+  font-family: Gravitas One;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.projectiles{
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(2, minmax(162px, 1fr));
+  place-items: center;
+  padding-left: 0.6 rem;
+  place-content: center;
+}
+.categories{
+  border-radius: 1.2rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  background-color: #1c1c1c;
+  height: auto;
+}
+.categories img{
+  width: 100%;
+  display: block;
+}
+.categories h4{
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  font-family: Creepster Caps;
+}
