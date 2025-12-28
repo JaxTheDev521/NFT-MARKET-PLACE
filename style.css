@@ -512,3 +512,40 @@ body {
   margin-bottom: 3.5rem;
   word-spacing: 0.2rem;
 }
+/*part7*/
+/*part8*/
+.part8{
+  max-width: 400px;
+  padding: 0.1rem;
+  margin: 0;
+}
+.part8-section{
+  padding: 1.5rem;
+  margin: 0;
+  max-width: 420px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 2rem;
+}
+.house{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.house p{
+
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.explore{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
