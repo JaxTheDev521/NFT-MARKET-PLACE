@@ -313,6 +313,7 @@ body {
   font-family: Gravitas One;
   padding: 1rem;
   font-size: 2rem;
+  color: #88bdf2;
 }
 .projectiles{
   display: grid;
@@ -340,3 +341,21 @@ body {
   font-size: 1.3rem;
   font-family: Creepster Caps;
 }
+.categories {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    filter 0.25s ease;
+}
+
+.categories:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  filter: brightness(1.08) saturate(1.1);
+}
+.categories:active {
+  transform: scale(0.98);
+}
+/*part4*/
