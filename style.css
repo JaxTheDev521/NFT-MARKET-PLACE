@@ -471,6 +471,8 @@ body {
   width: 100%;
   padding-top: 2rem;
   padding-left: 0.5rem;
+  background: #000;
+    border-radius: 1rem;
 }
 .scissors1 {
   display: flex;
@@ -482,7 +484,7 @@ body {
   background: #3b3b3b;
   margin-bottom: 2rem;
   border-radius: 2rem;
-  padding: 0.8rem;
+  width: 103%;
 }
 .sick {
   padding: 0.5rem;
