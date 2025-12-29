@@ -534,8 +534,17 @@ body {
   gap: 1rem;
   margin-bottom: 0.5rem;
 }
-.house p{
-
+.house h2{
+  font-size: 1rem;
+  font-family: candal;
+}
+.NFT1{
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+.NFT2{
+  color: var(--muted);
+  margin-bottom: 1.5rem;
 }
 .socials{
   display: flex;
@@ -543,11 +552,28 @@ body {
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
-
 .explore{
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   margin-bottom: 1rem;
+}
+.explore h2{
+  font-family: cursive;
+  font-size: 1rem;
+}
+.explore p{
+  color: var(--muted);
+}
+.digest h2{
+  font-family: candal;
+  margin-bottom: 0.8rem;
+}
+.digest p{
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+.form{
+  
 }
