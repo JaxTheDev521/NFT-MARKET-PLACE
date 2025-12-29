@@ -591,6 +591,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.subscribe:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+}
 .pleasezaddy img {
     
 }
