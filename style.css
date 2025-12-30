@@ -123,6 +123,16 @@ body {
   cursor: pointer;
   margin-bottom: 1.5rem;
 }
+.cta-button a{
+  text-decoration: none;
+}
+.cta-button a:hover{
+  color: #f00;
+}
+.cta-button a::after{
+  color: red;
+  text-decoration: underline;
+}
 .cta-button:hover {
   transform: scale(1.3);
   transition: 2s;
